@@ -1,0 +1,52 @@
+@import "bootstrap/bootstrap";
+
+
+.header {
+    height: 400px;
+    background: url('../../images/bg.jpg') no-repeat center;
+    background-size: cover;
+    color: $white;
+    text-align: center;
+    @media(max-width: 1199px){
+		.d2{
+			font-size: 3.5rem;
+		}
+    }
+    @media(max-width: 991px){
+		.d2{
+			font-size: 3rem;
+		}
+    }
+    @media(max-width: 767px){
+    	height: 300px;
+		.d2{
+			font-size: 2rem;
+		}
+    }
+}
+
+.main {
+    margin-top: 3rem;
+}
+
+.block {
+    padding: 1rem;
+    background: $white;
+    border-radius: $border-radius;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+.footer {
+    padding: 2rem 0;
+    background-color: $gray-900;
+    color: $white;
+    margin-top: 3rem;
+}
+
+.copyright {
+    background-color: darken($gray-900, 5%);
+    padding: 1rem;
+    color: $gray-500;
+    text-align: center;
+}
